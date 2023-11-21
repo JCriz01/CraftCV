@@ -140,11 +140,11 @@ const ResumeButton = ({ SVGSource, text, setState }) => {
   }
   return (
     <button
-      className="flex flex-col items-center justify-center bg-white rounded-lg p-2 "
+      className="flex flex-col items-center justify-center bg-white rounded-lg p-2 h-20 "
       onClick={() => setState(text)}
     >
       {SVGSource}
-      <p className="text-sm ">{text}</p>
+      <p className="text-xs ">{text}</p>
     </button>
   );
 };
