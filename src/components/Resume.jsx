@@ -35,24 +35,8 @@ const Resume = ({ state, pdfSource, setPDFSource }) => {
 
 
   return (
-    <>
-      <div className=" ">
-        <h1 className="text-lg">Resume Template</h1>
-        <p>
-          ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos ea a
-          quia quod voluptatum voluptatibus, voluptas, quibusdam dolorum quae
-        </p>
-
-        {/*  Resume Template */}
-        <div className="bg-white flex flex-col items-center p-2 rounded-lg">
-          {CurrentForm}
-          <button className="p-3 text-base rounded-md bg-red-800 text-white" onClick={()=>modifyPDF(pdfSource,setPDFSource, formInputs)}>
-            Preview
-          </button>
-        </div>
-        {/*  Resume Template */}
+      <div className="bg-white w-96 h-[540px] ">
       </div>
-    </>
   );
 };
 

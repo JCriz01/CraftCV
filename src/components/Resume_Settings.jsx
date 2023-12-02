@@ -1,12 +1,19 @@
+
+//TODO: Hard coding the resume settings for now. Will be updated later.
 const Resume_Settings = () => {
   return (
-    <div className="">
-      <h1 className="text-lg">Resume Settings</h1>
-      <p>
-        Please select any settings from this secion, this is test message, will
-        probably remove this later
-      </p>
-      <div></div>
+    <div className="flex flex-col">
+      <div className={"bg-white rounded-md p-3 flex flex-col justify-between items-center "}>
+        <div>
+          Content
+        </div>
+        <div>
+          Customize
+        </div>
+        <div>
+          Save
+        </div>
+      </div>
     </div>
   );
 };
