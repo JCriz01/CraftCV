@@ -4,15 +4,15 @@ const Resume_Settings = () => {
   return (
     <div className="flex flex-col">
       <div className={"bg-white rounded-md p-3 flex flex-col justify-between items-center "}>
-        <div>
+        <button className="p-2 bg-slate-200 hover:bg-slate-300 ">
           Content
-        </div>
-        <div>
+        </button>
+        <button className="p-2 bg-slate-200 hover:bg-slate-300">
           Customize
-        </div>
-        <div>
+        </button>
+        <button className="bg-gradient-to-r from-indigo-950 via-pink-900 to-rose-600 text-white p-2">
           Save
-        </div>
+        </button>
       </div>
     </div>
   );

@@ -20,8 +20,8 @@ const Header = () => {
     <div className="flex items-center justify-center ">
       {iconSvg}
       <div>
-        <h1 className="text-xl lg:text-2xl">Resume</h1>
-        <p className="lg:text-lg">Builder</p>
+        <h1 className="text-xl lg:text-2xl">Craft</h1>
+        <p className="lg:text-lg">CV</p>
       </div>
     </div>
   );
