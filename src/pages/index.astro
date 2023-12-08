@@ -1,5 +1,7 @@
 ---
 import App from "../components/App";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 ---
 
 <html lang="en">
@@ -11,7 +13,9 @@ import App from "../components/App";
     <title>CraftCV</title>
     
   </head>
-  <body class="bg-neutral-200 flex flex-col">
-    <App/>
+  <body class="bg-neutral-200 flex flex-col min-h-full ">
+    <Header />
+    <App client:load/>
+    <Footer />
   </body>
 </html>
