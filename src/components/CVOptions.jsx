@@ -1,17 +1,16 @@
 import react from "react";
-import Personal_info from "./Personal_info";
+import ResumeCard from "./ResumeCard";
+import PersonInfoForm from "./PersonInfoForm";
+ 
+const CVOptions=({setPersonInfo})=>{
 
-const CVOptions=()=>{
+  const personForm = <PersonInfoForm setPersonInfo={setPersonInfo}/>
   return(
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-3/4">
 
-      <Personal_info/>
-      <div>
-        Education
-      </div>
-      <div>
-        Experience
-      </div>
+      <ResumeCard FormSection={personForm} svgSource={"/personal_info.svg"} headerText={"Personal Information"}/>
+      <ResumeCard FormSection={"WIP"} svgSource={"/education.svg"} headerText={"Education"}/>
+      <ResumeCard FormSection={"WIP"} svgSource={"/experience.svg"} headerText={"Experience"}/>
     </div>
   )
 }
